@@ -14,17 +14,23 @@ func main() {
 		
 
 	//With automatic space
-	fmt.Println(age, dynAge);
+	fmt.Println(age, dynAge)
 
 	//with custom space
-	fmt.Println(age, "\t", dynAge);
+	fmt.Println(age, "\t", dynAge)
 
 
 	myfloatTest:=48.36
 
-	fmt.Println(myfloatTest);
+	fmt.Println(myfloatTest)
 
-	stringTest:="Shanmuga";
+	stringTest:="Shanmuga"
 	
-	fmt.Println(stringTest);
+	fmt.Println(stringTest)
+	
+	var isTest bool
+	
+	isTest=false
+	
+	fmt.Println(isTest)
 }
